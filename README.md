@@ -41,6 +41,83 @@ There was not enough time to implement.
 4.	The game works as per expectation
 5.	I was unable to develop the AI vs Agent or develop GUI for the program.
 
+# Sample Source:
+
+```
+import numpy as np
+import connect4
+from tables import rev_segments, all_segments
+
+PLAYER1 = 1
+PLAYER2 = 2
+
+PIECE_WEIGHT_MAP = {
+connect4.PIECE_ONE  : PLAYER1,
+connect4.PIECE_TWO  : PLAYER2,
+}
+array = []
+sumList = []
+count = 0
+
+class Evaluator(object):
+def evaluate(self, oppMove, board):
+        # assign weightage
+        weights = [1,5,10]   
+
+       # remove all filled segments from rev – fill with 200
+        cnt = 0
+
+        for m in range(len(all_segments)):
+            occupied = "true"
+
+            for pos1 in all_segments[m]:
+                if pos1 != 200:
+                    row1 = int(pos1 /6)
+                    col1 = pos1 % 6
+                    if board[row1][col1]== connect4.PIECE_NONE:
+                        occupied = "false"
+                        
+            if occupied == "true":
+                all_segments[m] = 200
+        cnt = cnt +1
+        #check each segment
+        for seg in all_segments:
+            count = 0
+            sum=0
+            for pos in seg:
+                 if pos== 200:
+                    continue
+                else:
+                    row = int(pos / 6)
+                    col = pos % 6
+                    #check if the opponent has piece
+                    if board[row][col] == connect4.PIECE_ONE:
+                        sum = PLAYER1 * weights[count]
+                        count=count +1
+                    if board[row][col] == connect4.PIECE_TWO:
+                        sum = sum + PLAYER2
+                
+                    sumList.append( [seg, sum])
+        max = 0
+        #clear the array
+        array.clear()
+        for i in range(len(sumList)):
+            temp = sumList[i][0]
+            if  temp[1]!=200 and sumList[i][1] > max:
+                # find max for all the values first
+                max = sumList[i][1]
+        
+        for i in sumList:
+            if  i[0][1] != 200 and i[1] == max:
+                array.append(i[0])
+        if len(array)!=0:
+            rand= np.random.randint(0, len(array))
+        else:
+            print("No possible move")
+
+return array[rand]
+```
+
 # Reference:
 1. A, R., Ibsen, E., & Zhang, C. (2003, December 15). A connect four playing AI agent: algorithm and creation process.<br>
 2. Dignum, F., Westra, J., van Doesburg, W. A., & Harbers, M. (2009). Games and Agents: Designing Intelligent Gameplay. International Journal of Computer Games Technology, 18. <br>
