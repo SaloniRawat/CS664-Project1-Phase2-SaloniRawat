@@ -12,7 +12,7 @@ The obvious benefit of this approach was grouping of possible wins from one part
 ## AI vs AI:
 In the initial design, I had also hoped that it would be easier to code an AI vs AI game and while, it does seem easier to have a program working without the user input, it was a lot more difficult to test. There are few random factors also involved in the selecting the winning move, it would have not allowed for a thorough testing to check what part of algorithm was working and what was not. 
 Winning Move:
-At the time of phase 1 what I didn’t seem to account for the possibility of multiple squares having the same weighted sum. So, to identify the winning move much better, it seems we need another heuristic to pick the winning move (A, Ibsen, & Zhang, 2003). However, for this case, we picked a winning combination at random. An example is discussed in Appendix 1. 
+At the time of phase 1 what I didn’t seem to account for the possibility of multiple squares having the same weighted sum. So, to identify the winning move much better, it seems we need another heuristic to pick the winning move (A, Ibsen, & Zhang, 2003). However, for this case, we picked a winning combination at random. An example is discussed in Appendix 1 (Refer to Wiki). 
 
 # Tools:
 Python 3.6 – Language used to code the program. Since there was a lot of reference material available in python, it was a much easier language to use to implement this program. The language also has multiple frameworks such as Numpy (explained later) that can be leveraged while iterating through a large array multiple times. 
