@@ -15,10 +15,12 @@ Winning Move:
 At the time of phase 1 what I didn’t seem to account for the possibility of multiple squares having the same weighted sum. So, to identify the winning move much better, it seems we need another heuristic to pick the winning move (A, Ibsen, & Zhang, 2003). However, for this case, we picked a winning combination at random. An example is discussed in Appendix 1 (Refer to Wiki). 
 
 # Tools:
-Python 3.6 – Language used to code the program. Since there was a lot of reference material available in python, it was a much easier language to use to implement this program. The language also has multiple frameworks such as Numpy (explained later) that can be leveraged while iterating through a large array multiple times. 
-Shortcomings – I mainly have coded in Java in my past and wasn’t very comfortable using python. Also, since I have had no experience with java, it was difficult for me to work with the more complex frameworks which would have built a more effective agent.
-Spyder -  I used Spyder IDE. The tool is extremely popular and I have used the same in the past, so it was just a matter of familiarity.
-Numpy – It is a Python package used to scientific computation. It was extremely useful for me to code the evaluate.py which evaluates the best move to be made by the agent. The package allowed to effectively iterate through the board and the multiple combinations of the possible winning moves.
+### Python 3.6
+Language used to code the program. Since there was a lot of reference material available in python, it was a much easier language to use to implement this program. The language also has multiple frameworks such as Numpy (explained later) that can be leveraged while iterating through a large array multiple times. 
+### Spyder
+I used Spyder IDE. The tool is extremely popular and I have used the same in the past, so it was just a matter of familiarity.
+### Numpy
+It is a Python package used to scientific computation. It was extremely useful for me to code the evaluate.py which evaluates the best move to be made by the agent. The package allowed to effectively iterate through the board and the multiple combinations of the possible winning moves.
 
 # What did not work well:
 1.	As mentioned under design and in Appendix 2, since the agents picks all the possible squares with the highest weighted sum, sometimes, it picks a square in the diagonal combination, which may not be a possible move in the next turn. 
