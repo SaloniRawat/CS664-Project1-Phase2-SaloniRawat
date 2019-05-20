@@ -40,14 +40,14 @@ There was not enough time to implement.
 5.	I was unable to develop the AI vs Agent or develop GUI for the program.
 
 # Reference:
-A, R., Ibsen, E., & Zhang, C. (2003, December 15). A connect four playing AI agent: algorithm and creation process.
-Dignum, F., Westra, J., van Doesburg, W. A., & Harbers, M. (2009). Games and Agents: Designing Intelligent Gameplay. International Journal of Computer Games Technology, 18.
-Github. (n.d.). Retrieved from https://github.com/duilio/c4
-MIT. (2010, March). Retrieved from web.mit.edu: http://web.mit.edu/sp.268/www/2010/connectFourSlides.pdf
-Pearce, A. (n.d.). Connect 4 AI: How it woks. Retrieved from https://roadtolarissa.com/connect-4-ai-how-it-works/
-Russell, S., & Norvig, P. (2010). Artificial Intelligence: A Modern Approach. 
-Sambati, M. (2013). Connect 4. Retrieved from blogs.skicelab.com: http://blogs.skicelab.com/maurizio/connect-four.html
-Saveski, M. (2009). AI Agent for Connect Four. Retrieved from web.media.mit.edu: http://web.media.mit.edu/~msaveski/projects/2009_connect-four.html
-Suhartono, D., Wibisono, R., Elvaretta, V., & Willy. (n.d.). A comparison between Greedy and Minimax algorithm in Two Players Game. Retrieved from http://thesis.binus.ac.id/doc/Lain-lain/2013-1-00553-IF%20WorkingPaper001.pdf
-University of Notre Dame. (n.d.). Project 01: Connect 4. Retrieved from https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/project01.html
+1. A, R., Ibsen, E., & Zhang, C. (2003, December 15). A connect four playing AI agent: algorithm and creation process.<br>
+2. Dignum, F., Westra, J., van Doesburg, W. A., & Harbers, M. (2009). Games and Agents: Designing Intelligent Gameplay. International Journal of Computer Games Technology, 18. <br>
+3. Github. (n.d.). Retrieved from https://github.com/duilio/c4 <br>
+4. MIT. (2010, March). Retrieved from web.mit.edu: http://web.mit.edu/sp.268/www/2010/connectFourSlides.pdf <br>
+5. Pearce, A. (n.d.). Connect 4 AI: How it woks. Retrieved from https://roadtolarissa.com/connect-4-ai-how-it-works/ <br>
+6. Russell, S., & Norvig, P. (2010). Artificial Intelligence: A Modern Approach. <br>
+7. Sambati, M. (2013). Connect 4. Retrieved from blogs.skicelab.com: http://blogs.skicelab.com/maurizio/connect-four.html <br>
+8. Saveski, M. (2009). AI Agent for Connect Four. Retrieved from web.media.mit.edu: http://web.media.mit.edu/~msaveski/projects/2009_connect-four.html<br>
+9. Suhartono, D., Wibisono, R., Elvaretta, V., & Willy. (n.d.). A comparison between Greedy and Minimax algorithm in Two Players Game. Retrieved from http://thesis.binus.ac.id/doc/Lain-lain/2013-1-00553-IF%20WorkingPaper001.pdf <br>
+10. University of Notre Dame. (n.d.). Project 01: Connect 4. Retrieved from https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/project01.html
 
