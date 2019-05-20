@@ -1,4 +1,4 @@
-# CS664-Project1 Phase2 Connect4
+# Connect4
 
 This project aims to simulate a game of Connect4 using the minmax algorithm. The game is played between the user and the AI with the user going first. All the rules of the game are followed during the process (A, Ibsen, & Zhang, 2003). The purpose of the agent is to defend the player’s and to avoid losing the game. In order to check for the winning move, the agent must check diagonally, vertically and horizontally to see if the player has a possibility of having 4 disks in row, if so the agent must place a disk and stop the player form winning. 
 
